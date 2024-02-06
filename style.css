@@ -1,0 +1,706 @@
+@media screen and (min-width:1024px){
+    *{
+        box-sizing:border-box ;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+        width: 1440px;
+    }
+    .home{
+        width: auto;
+        height: 694px;
+        top: 4px;
+        left: 2px;
+        background:black;
+        background: radial-gradient(50% 50% at 50% 50%, #5A3C0F 0%, #000000 100%);
+    
+    }
+    .home img{
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 54px;
+        left: 104px;
+        
+    
+    }
+    .logo img{
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 54px;
+        
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 519px;
+        height: 20px;
+        position: absolute;
+        top: 91px;
+        left: 460px;
+    }
+    
+    .menu a {
+        margin: 25px;
+        font-size: 0.95em; 
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    
+    .menu-toggle {
+        display: none;
+        cursor: pointer;
+    }
+    
+    .title{
+        width: 651px;
+        height: 96px;
+        position: absolute;
+        top: 266px;
+        left: 394px;
+        border: 1px;
+        opacity: 0.4px;
+        font-family:black;
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 96px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #b59b06; 
+        z-index: 10;
+        background: transparent;
+        background: linear-gradient(180deg, #958100 0%, #BD9457 7.81%, #E3CA89 18.75%, #a18901 52.34%, #a08b01 64.06%, #d19600 75%);
+        -webkit-background-clip: text; /* Apply gradient as text fill */
+        -webkit-text-fill-color: transparent;
+        
+    
+    }
+    
+    
+    
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0;
+    }
+    
+    .login{
+        border: 2px solid;
+        border-image: linear-gradient(#FCF6D1, #BD9457, #E3CA89, #FEE8C8, #4D3A1A, #FCF0D1);
+        border-image-slice: 1;
+        color: #4D3A1A;
+        background-color: transparent; 
+        color: white; 
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top: 79px;
+        left: 1089px;
+        padding: 10px 20px; 
+        font-size: 16px; 
+        cursor: pointer;
+         
+    }
+    .started{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.06em;
+        background: linear-gradient(#FCF6D1 0%, #caa265 6.42%, #E3CA89 25%, #FEE8C8 69.79%,  #dcc079 100%);
+        border: 2px solid #BD9457; 
+        font-size: 0.9em;
+        font-weight: bold;
+        color: black; 
+        padding: 10px 10px;
+        position: absolute;
+        width: 118px;
+        height: 40px;
+        top: 80px;
+        left: 1222px;
+        cursor: pointer;
+    }
+    .content{
+        width: 528px;
+        height: 85px;
+        position: absolute;
+        top: 405px;
+        left: 456px;
+        border: 1px;
+        font-family: Outfit;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+    }
+    .explore{
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        top: 525px;
+        left: 570px;
+    }
+    .golden-line-1 {
+        position: absolute;
+        height: 1.5px;
+        opacity: 1;
+        width: 127px;
+        top: 623px;
+        left: 507px;   
+        background: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+        border-image-source: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+    }
+    .golden-line-2 {
+        position: absolute;
+        height: 1.5px;
+        opacity: 1;
+        width: 127px;
+        top: 623px;
+        left: 805px;
+        border: 2px;
+        background: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+        border-image-source: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+    }
+    
+    
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .twitter-icon img
+     {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        left:1318px;
+        top: 335px;
+        border-radius: 50%;
+     }
+    
+    .linkedin-icon img
+    {
+        width: 25px;
+        height: 25px; 
+        position: absolute;
+        left:1318px;
+        top: 410px;
+        border-radius: 30%;
+    }
+    .vector-icon img{
+        width: 22px;
+        height: 22px; 
+        position: absolute;
+        left:1318px;
+        top: 375px;
+        border-radius: 30%;
+    }
+    .facebook-icon img{
+        width: 25px;
+        height: 25px; 
+        position: absolute;
+        left:1318px;
+        top: 455px;
+        border-radius: 50%;
+    }
+    .about{
+        
+        background-color: #02000E;    
+        max-width: 1440px;
+        height: 694px;
+    
+    }
+    
+    .about img{
+       
+        position: absolute;
+        width: 579px;
+        height: 191px;
+        top: 917px;
+        left: 430px;
+    
+    }
+    .about p{
+        width: 938px;
+        height: 324px;
+        position: absolute;
+        top: 1063px;
+        left: 251px;
+        color: #FFFFFFCF;
+        font-family: Outfit;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: center;
+    
+    }
+    
+}
+
+
+
+@media (max-width :767px) {
+    *{
+        box-sizing:border-box ;        
+        background-color: black;
+        width: 100%;
+        
+    }
+    body{
+        overflow-x: hidden;
+        
+    }
+    .title{
+        width: 650px; 
+        height: 200px;
+        position: absolute;
+        top: 340px ;
+        left: 150px;
+        border: 2px;
+        opacity: 0.7px;
+        font-family:black;
+        font-size: 5.5em;
+        font-weight: bold;
+        line-height: 50px;
+        text-align: left;
+        color: #b59b06; 
+        z-index: 10;
+        background: transparent;
+        background: linear-gradient(180deg, #958100 0%, #BD9457 7.81%, #E3CA89 18.75%, #a18901 52.34%, #a08b01 64.06%, #d19600 75%);
+        -webkit-background-clip: text; /* Apply gradient as text fill */
+        -webkit-text-fill-color: transparent
+    }
+
+    .home{ 
+        top: 4px;
+        left: 2px;
+        width:750px;
+        height: 1300px;
+        background: radial-gradient(70% 80% at 50% 50%, #9a6517 2%, #000000 70%);
+        background-position: center ;
+        background-size: cover;
+        
+        
+    }
+    .logo img{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 45px;
+        left:45px;
+        background:transparent;
+    }
+    
+    .menu a{
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        left: 690px;
+        top:102px;
+        color: #8c7703;
+    }
+
+    .bar{
+        width: 65px;
+        height: 10px;
+        background-color: #b69b00ee; /* Golden color */
+        margin: 5px 0;
+        }
+
+    .login{
+        border: 4px solid;
+        border-image: linear-gradient(#FCF6D1, #BD9457, #E3CA89, #FEE8C8, #4D3A1A, #FCF0D1);
+        border-image-slice: 1;
+        color: #4D3A1A;
+        background-color: transparent; 
+        color: white; 
+        width: 380px;
+        height: 100px;
+        position: absolute;
+        top: 1030px;
+        left: 240px;
+        padding: 10px 20px; 
+        font-size: 46px; 
+        cursor: pointer;
+         
+    }
+    .started{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.06em;
+        background: linear-gradient(#FCF6D1 0%, #caa265 6.42%, #E3CA89 25%, #FEE8C8 69.79%,  #dcc079 100%);
+        border: 4px solid #BD9457; 
+        font-size: 2em;
+        font-weight: bold;
+        color: black; 
+        padding: 10px 10px;
+        position: absolute;
+        width: 380px;
+        height: 100px;
+        top: 1200px;
+        left: 240px;
+        cursor: pointer;
+    }
+    .content{
+        width:430px;
+        height: 100px;
+        position: absolute;
+        top: 520px;
+        left: 185px;
+        border: 1px;
+        font-family: Outfit;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        background: transparent;
+    }
+    .explore img{
+        width: 150px;
+        height: 150px;
+        position:absolute;
+        top: 1395px;
+        left: 365px;
+    }
+    .golden-line-1 {
+        position: absolute;
+        height: 3.5px;
+        opacity: 1;
+        width: 150px;
+        top: 1463px;
+        left: 180px;   
+        background: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+        border-image-source: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+    }
+    .golden-line-2 {
+        position: absolute;
+        height: 3.5px;
+        opacity: 1;
+        width: 150px;
+        top: 1463px;
+        left: 545px;
+        border: 2px;
+        background: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+        border-image-source: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+    }
+
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+    }
+    .twitter-icon img
+    {
+        width: 65px;
+        height: 65px;
+        position: absolute;
+        left:748px;
+        top: 620px;
+        border-radius: 50%;
+    }
+    .vector-icon img{
+        width: 60px;
+        height: 60px; 
+        position: absolute;
+        left:748px;
+        top: 695px;
+        border-radius: 50%;
+    }
+    .linkedin-icon img
+    {
+        width: 65px;
+        height: 65px; 
+        position: absolute;
+        left:748px;
+        top: 800px;
+        border-radius: 30%;
+    }
+    .facebook-icon img{
+        width: 65px;
+        height: 65px; 
+        position: absolute;
+        left:748px;
+        top: 900px;
+        border-radius: 50%;
+    }    
+    
+    .about{
+        
+        background-color: #02000E;    
+    
+    }
+    
+    .about img{
+       
+        position: absolute;
+        width: 815px;
+        height: 320px;
+        top: 1750px;
+        left: 33px;
+    
+    }
+    .about p{
+        width: 680px;
+        height: 624px;
+        position: absolute;
+        top: 2050px;
+        left: 85px;
+        color: #FFFFFFCF;
+        font-family: Outfit;
+        font-size: 35px;
+        font-weight: 200;
+        line-height: 55px;
+        text-align:justify;
+        padding-left:20px;
+        padding-right: 20px;
+    
+    }
+}
+
+@media screen and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    *{
+        box-sizing:border-box ;        
+        background-color: black;
+        width: 100%;
+        
+    }
+    body{
+        overflow-x: hidden;
+        
+    }
+    .title{
+        width: 650px; 
+        height: 200px;
+        position: absolute;
+        top: 340px ;
+        left: 150px;
+        border: 2px;
+        opacity: 0.7px;
+        font-family:black;
+        font-size: 5.5em;
+        font-weight: bold;
+        line-height: 50px;
+        text-align: left;
+        color: #b59b06; 
+        z-index: 10;
+        background: transparent;
+        background: linear-gradient(180deg, #958100 0%, #BD9457 7.81%, #E3CA89 18.75%, #a18901 52.34%, #a08b01 64.06%, #d19600 75%);
+        -webkit-background-clip: text; /* Apply gradient as text fill */
+        -webkit-text-fill-color: transparent
+    }
+
+    .home{ 
+        top: 4px;
+        left: 2px;
+        width:750px;
+        height: 1300px;
+        background: radial-gradient(70% 80% at 50% 50%, #9a6517 2%, #000000 70%);
+        background-position: center ;
+        background-size: cover;
+        
+        
+    }
+    .logo img{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 45px;
+        left:45px;
+        background:transparent;
+    }
+    
+    .menu a{
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        left: 690px;
+        top:102px;
+        color: #8c7703;
+    }
+
+    .bar{
+        width: 65px;
+        height: 10px;
+        background-color: #b69b00ee; /* Golden color */
+        margin: 5px 0;
+        }
+
+    .login{
+        border: 4px solid;
+        border-image: linear-gradient(#FCF6D1, #BD9457, #E3CA89, #FEE8C8, #4D3A1A, #FCF0D1);
+        border-image-slice: 1;
+        color: #4D3A1A;
+        background-color: transparent; 
+        color: white; 
+        width: 380px;
+        height: 100px;
+        position: absolute;
+        top: 1030px;
+        left: 240px;
+        padding: 10px 20px; 
+        font-size: 46px; 
+        cursor: pointer;
+         
+    }
+    .started{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.06em;
+        background: linear-gradient(#FCF6D1 0%, #caa265 6.42%, #E3CA89 25%, #FEE8C8 69.79%,  #dcc079 100%);
+        border: 4px solid #BD9457; 
+        font-size: 2em;
+        font-weight: bold;
+        color: black; 
+        padding: 10px 10px;
+        position: absolute;
+        width: 380px;
+        height: 100px;
+        top: 1200px;
+        left: 240px;
+        cursor: pointer;
+    }
+    .content{
+        width:430px;
+        height: 100px;
+        position: absolute;
+        top: 520px;
+        left: 185px;
+        border: 1px;
+        font-family: Outfit;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        background: transparent;
+    }
+    .explore img{
+        width: 150px;
+        height: 150px;
+        position:absolute;
+        top: 1395px;
+        left: 365px;
+    }
+    .golden-line-1 {
+        position: absolute;
+        height: 3.5px;
+        opacity: 1;
+        width: 150px;
+        top: 1463px;
+        left: 180px;   
+        background: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+        border-image-source: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+    }
+    .golden-line-2 {
+        position: absolute;
+        height: 3.5px;
+        opacity: 1;
+        width: 150px;
+        top: 1463px;
+        left: 545px;
+        border: 2px;
+        background: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+        border-image-source: linear-gradient(270deg, #FCF6D1 0%, #BD9457 10.42%, #E3CA89 25%, #FEE8C8 69.79%, #4D3A1A 85.42%, #FCF0D1 100%);
+    }
+
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+    }
+    .twitter-icon img
+    {
+        width: 65px;
+        height: 65px;
+        position: absolute;
+        left:748px;
+        top: 620px;
+        border-radius: 50%;
+    }
+    .vector-icon img{
+        width: 60px;
+        height: 60px; 
+        position: absolute;
+        left:748px;
+        top: 695px;
+        border-radius: 50%;
+    }
+    .linkedin-icon img
+    {
+        width: 65px;
+        height: 65px; 
+        position: absolute;
+        left:748px;
+        top: 800px;
+        border-radius: 30%;
+    }
+    .facebook-icon img{
+        width: 65px;
+        height: 65px; 
+        position: absolute;
+        left:748px;
+        top: 900px;
+        border-radius: 50%;
+    }    
+    
+    .about{
+        background-color: #02000E;    
+    }
+    
+    .about img{
+       
+        position: absolute;
+        width: 815px;
+        height: 320px;
+        top: 1750px;
+        left: 33px;
+    
+    }
+    .about p{
+        width: 680px;
+        height: 624px;
+        position: absolute;
+        top: 2050px;
+        left: 85px;
+        color: #FFFFFFCF;
+        font-family: Outfit;
+        font-size: 35px;
+        font-weight: 200;
+        line-height: 55px;
+        text-align:justify;
+        padding-left:20px;
+        padding-right: 20px;
+    
+    }
+    
+}
+
